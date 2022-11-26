@@ -19,22 +19,28 @@
 
     .nav.open .nav-list {
         margin-top: 0;
+        padding: 0;
         height: 100%;
         position: fixed;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 50.00%, #5D16D1 100%);
+        background: #FEC62D;
         z-index: 1;
 
         /*padding: 46px 30px;*/
         display: flex;
         flex-direction: column;
         row-gap: 40px;
+        align-items: flex-start;
 
         font-size: 20px;
         font-weight: 600;
+    }
+
+    .nav.open .nav-list .register{
+        display: flex;
     }
 
     .nav-link {
@@ -42,7 +48,9 @@
     }
 
     .nav-link.active {
-        color: #d798ff;
+        color: #58A9A5;
+        text-decoration: underline;
+        text-decoration-color: #FEC62D;
     }
 
     .nav-button {
@@ -90,5 +98,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    li.nav-user{
+        margin-left: 70px;
     }
 }
