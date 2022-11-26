@@ -103,4 +103,14 @@
     li.nav-user{
         margin-left: 70px;
     }
+
+    .contentlocation{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagelocation img{
+        max-width: 100%;
+    }
 }
