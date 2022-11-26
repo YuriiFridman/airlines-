@@ -1,8 +1,9 @@
-.questionphoto img{
+.questionphoto img {
     height: 600px;
 
 }
-.questioncontent{
+
+.questioncontent {
     display: flex;
     justify-content: space-between;
     margin-left: 240px;
@@ -10,7 +11,7 @@
     margin-top: 30px;
 }
 
-.questiontext{
+.questiontext {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,7 +21,7 @@
 
 }
 
-.qatext p{
+.qatext p {
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 500;
@@ -28,7 +29,7 @@
     line-height: 29px;
 }
 
-.qatext h1{
+.qatext h1 {
     color: #58A9A5;
     font-family: 'Montserrat', serif;
     font-style: normal;
