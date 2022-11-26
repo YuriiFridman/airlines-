@@ -126,4 +126,33 @@
     .questionphoto img {
         max-width: 100%;
     }
+
+    .containerregister input {
+        max-width: 100%;
+    }
+
+    .containerregister {
+        max-width: 100%;
+    }
+
+    .clearfix{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    .cancelbtn{
+        max-width: 50%;
+    }
+
+    .signupbtn{
+        max-width: 50%;
+    }
+
+    .cancelbutton, .signupbutton{
+        width: 250px;
+    }
+
+    .containerregister input{
+        max-width: 80%;
+    }
 }
