@@ -1,0 +1,133 @@
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li, ul{
+    list-style: none;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    display: flex;
+    margin-left: 70px;
+}
+.nav-link{
+    color: #404242;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.nav-link.active{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #58A9A5;
+    text-decoration: underline;
+    text-decoration-color: #FEC62D;
+}
+
+.search{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchTerm {
+    border: 3px solid #58A9A5;
+    border-right: none;
+    height: 35px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    color: #531ACA;
+
+}
+
+.searchButton {
+    width: 45px;
+    height: 43px;
+    border: 1px solid #58A9A5;
+    background: #58A9A5;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fa.fa-magnifying-glass{
+    color: white;
+}
+
+.register{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background: unset;
+}
+
+.home{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 170px;
+}
+
+.imghome{
+    width: 750px;
+    height: 640px;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.text h1{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 45px;
+}
+
+.text p{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5px;
+    line-height: 30px;
+}
+
+.homebutton{
+    margin-top: 70px;
+    width: 210px;
+    height: 60px;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.nav-button {
+    display: none;
+    border: none;
+    background-color: unset;
+}
