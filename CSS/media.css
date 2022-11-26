@@ -26,7 +26,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: #FEC62D;
+        background: #CCF0E6;
         z-index: 1;
 
         /*padding: 46px 30px;*/
@@ -44,7 +44,7 @@
     }
 
     .nav-link {
-        color: #ffffff;
+       color: #404242;
     }
 
     .nav-link.active {
@@ -62,7 +62,7 @@
     .header-nav {
         display: flex;
         justify-content: flex-start;
-        align-items: flex-end;
+        align-items: center;
         margin-bottom: 10px;
     }
 
