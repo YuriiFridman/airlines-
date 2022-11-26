@@ -1,0 +1,23 @@
+.contentlocation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 170px;
+    margin-top: 80px;
+}
+
+.locationtext h1 {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+}
+
+.locationtext p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+}
