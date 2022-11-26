@@ -121,4 +121,8 @@
         margin: 0;
         padding: 0;
     }
+
+    .questionphoto img{
+        max-width: 100%;
+    }
 }
