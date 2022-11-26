@@ -139,17 +139,7 @@
         display: flex;
         justify-content: space-between;
         margin-left: 10px;
-    }
-    .cancelbtn{
-        max-width: 50%;
-    }
-
-    .signupbtn{
-        max-width: 50%;
-    }
-
-    .cancelbutton, .signupbutton{
-        width: 250px;
+        margin-right: 5px;
     }
 
     .containerregister input{
